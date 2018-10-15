@@ -11,4 +11,5 @@ def hello_world():
 # normal Python boilerplate to make sure we don't run anything automatically if our code is imported by another Python script
 if __name__ == "__main__":
     # starts the development server for Flask and allows us to visit our web application from our local machine by visiting localhost
-    app.run()
+    app.run(host='0.0.0.0')
+    #app.run(port=5001, threaded=True, host='0.0.0.0')
