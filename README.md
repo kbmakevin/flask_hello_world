@@ -1,8 +1,12 @@
 # How to Run
 
 ```
-docker build -t flasktest .
-docker run -p 5000:5000 flasktest
+docker-compose up
 ```
 
 Go to http://localhost:5000/ to see results
+
+# How to Shutdown
+1. Open new terminal
+2. Cd into the app folder
+3. `docker-compose down`
